@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish',sans-serif;
+    max-width: 100%;
+}
+
+#home {
+    background: black;
+}
+
+nav {
+    background: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.nav-link {
+    font-size: 20px!important;
+    font-weight: 200!important;
+}
+
+.heading-section {
+    position: relative;
+    top: 10rem;
+    margin-bottom: 170px;
+    background: black;
+    color: white;
+    max-width: 100%;
+}
+
+.grid-section {
+    max-width: 100%;
+    margin-left: 5vw;
+}
+.heading-section a {
+    text-decoration: none;
+    color: white;
+}
+
+#heading-section .row {
+    margin-left: calc(2.5 * var(--bs-gutter-x));
+}
+
+#landing-heading h1 {
+    font-size: 10vw;
+    font-weight: 800;
+}
+
+#down-arrow {
+    font-size: 75px;
+    line-height: 73px;
+}
+
+#about-us {
+    position: relative;
+    top: 10rem;
+}
+
+#about-us h1, #services h1, #contact div>h1 {
+    font-size: 8vw;
+    font-weight: 800;
+}
+
+#about-us p {
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+#services {
+    position: relative;
+    top: 17rem;
+}
+
+#services .row {
+    position: absolute;
+    left: -1px;
+}
+
+.card-title {
+    font-size: 43px;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.card:hover {
+    background: black;
+    color: white;
+    transition-delay: 0.3s;
+}
+
+#contact {
+    background: black;
+    color: white;
+    position: relative;
+    top: 53rem;
+}
+
+#contact input {
+    height: 4.5vw;
+}
+
+#contact input[placeholder] {
+    background: black;
+    color: white!important;
+    border-radius: 0px;
+}
+
+@media screen and (max-width: ) {
+    
+}
