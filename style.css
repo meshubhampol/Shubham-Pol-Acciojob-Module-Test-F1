@@ -71,7 +71,7 @@ nav {
 }
 
 #about-us p {
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 400;
 }
 
@@ -96,6 +96,7 @@ nav {
 }
 
 .card:hover {
+    cursor: pointer;
     background: black;
     color: white;
     transition-delay: 0.3s;
