@@ -46,6 +46,15 @@ nav {
     font-weight: 800;
 }
 
+#landing-heading {
+    animation: fade 7s;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 #down-arrow {
     font-size: 75px;
     line-height: 73px;
